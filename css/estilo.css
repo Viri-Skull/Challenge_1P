@@ -1,0 +1,155 @@
+
+
+body {
+    background: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 20px 50px 35px 50px;
+}
+
+.logo-Huddle{
+   width: 14%;
+}
+
+.principal{
+    width: 90%;
+    overflow: hidden;
+}
+
+.mockup{
+    width: 100%;
+}
+
+aside{
+    width: 53%;
+    padding: 25px 50px;
+    float: left;
+}
+
+#title{
+    font-weight: 700;
+    margin-top: 0.3em;   
+    font-size: 2.2em;
+}
+#synopsis{
+    font-weight: 400;
+}
+
+article{
+    width: 30%;
+    float: left;
+    padding: 35px;
+}
+
+#registerButton{
+    padding: 0.6em;
+    width: 150px;
+    color: #A39ABD;
+    border: #281156 2px solid;
+    border-radius: 40px;
+    font-size: 1em;
+    box-shadow: 5px 4px 8px 2px #472E76;
+}
+
+#registerButton:hover{
+    color: white;
+    background-color: #472E76;
+    border: white 1px solid;
+}
+
+footer{
+    width: 96%;
+    font-size: 1.2em;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.iconos{
+    margin-right: 0.3em;
+}
+
+.fa-facebook:hover{
+    color: darkblue;
+}
+
+.fa-twitter-square:hover{
+    color: deepskyblue;
+}
+
+.fa-instagram:hover{
+    color: #E56969;
+}
+
+@media only screen and (max-width: 1200px){
+    body{
+        background: hsl(257, 40%, 49%);
+        background-image: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .container{
+        width: 90%;
+        overflow: hidden;
+    }
+    
+    .logo-Huddle{
+        width: 45%;
+    }
+    
+    
+    aside{
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    .mockup{
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    article{
+        width: 88%;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+    
+    #title{
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+    
+    #synopsis{
+        font-size: 0.9em;  
+    }
+    
+    #registerButton{
+       width: 190px; 
+       margin-top: 13px;    
+       box-shadow: none;
+        font-size: 1.1em;
+        padding: 10px;
+        color: #281156;
+    }
+    
+    footer{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .iconos{
+        font-size: 13px;
+        margin-left: 9px;
+    }
+}
